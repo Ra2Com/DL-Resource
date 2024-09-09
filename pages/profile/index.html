@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Deadlock 个人生涯简版</title>
+	<link rel="stylesheet" href="../../css/base.css" />
+	<link rel="stylesheet" href="../../css/citadel_db_page_profile.css" />
+</head>
+<body>
+	<video muted autoplay loop src="../../videos/menu_streets_loop2.webm"></video>
+	<div id="root">
+		<div data-id="MatchHistoryArea">
+			<div class="titleArea">
+				<span class="smallTitle">比赛历史</span>
+				<div data-id="MatchHistoryButton">
+					<span class="smallTitle">查看所有历史比赛记录 <span data-id="allHistoryIcon"></span></span>
+				</div>
+			</div>
+			<div data-id="MatchHistoryList">
+				<div data-id="MatchBlockBigContainer">
+					<div class="MatchBlockBig team1 loss">
+						<div class="teamStripe"></div>
+						<div class="gameContent">
+							<div class="gameInfo">
+								<div data-id="gameResultRow">
+									<span class="gameResult">失败</span>
+								</div>
+								<span class="heroName">暗影</span>
+								<span class="gameDuration">36:48</span>
+								<span class="gameDate">2024/9/8 下午 11:13</span>
+							</div>
+							<img data-id="HeroImage" class="heroImg" src="../../panorama/images/heroes/haze_card_psd.png">
+							<span class="gameNetworth">26k</span>
+						</div>
+						<div data-id="Overlay">
+							<div class="viewDetails">
+								<span>View Details <span class="arrowIcon"></span></span>
+							</div>
+						</div>
+					</div>
+					<div class="MatchBlockBig team2 win">
+						<div class="teamStripe"></div>
+						<div class="gameContent">
+							<div class="gameInfo">
+								<div data-id="gameResultRow">
+									<span class="gameResult">胜利</span>
+								</div>
+								<span class="heroName">老七</span>
+								<span class="gameDuration">42:13</span>
+								<span class="gameDate">2024/9/8 上午 12:45</span>
+							</div>
+							<img data-id="HeroImage" class="heroImg" src="../../panorama/images/heroes/gigawatt_card_psd.png">
+							<span class="gameNetworth">35k</span>
+						</div>
+						<div data-id="Overlay">
+							<div class="viewDetails">
+								<span>查看详情 <span class="arrowIcon"></span></span>
+							</div>
+						</div>
+					</div>
+					<div class="MatchBlockBig team1 win">
+						<div class="teamStripe"></div>
+						<div class="gameContent">
+							<div class="gameInfo">
+								<div data-id="gameResultRow">
+									<span class="gameResult">胜利</span>
+								</div>
+								<span class="heroName">麦金尼斯</span>
+								<span class="gameDuration">34:47</span>
+								<span class="gameDate">2024/9/8 下午 9:46</span>
+							</div>
+							<img data-id="HeroImage" class="heroImg" src="../../panorama/images/heroes/engineer_card_psd.png">
+							<span class="gameNetworth">43k</span>
+						</div>
+						<div data-id="Overlay">
+							<div class="viewDetails">
+								<span>查看详情 <span class="arrowIcon"></span></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div data-id="MatchBlockMiniContainer" class="MiniMatchBlock">
+					<div class="gameMiniBlock team1 win">
+						<div class="teamStripe"></div>
+						<span class="gameResultShort">胜利</span>
+						<img data-id="HeroImage" class="heroImg" src="../../panorama/images/heroes/bull_card_psd.png">
+						<div data-id="Overlay">
+							<div class="viewDetails">
+								<div class="arrowIcon"></div>
+							</div>
+						</div>
+					</div>
+					<div class="gameMiniBlock team2 win">
+						<div class="teamStripe"></div>
+						<span class="gameResultShort">胜利</span>
+						<img data-id="HeroImage" class="heroImg" src="../../panorama/images/heroes/digger_card_psd.png">
+						<div data-id="Overlay">
+							<div class="viewDetails">
+								<div class="arrowIcon"></div>
+							</div>
+						</div>
+					</div>
+					<div class="gameMiniBlock team2 loss">
+						<div class="teamStripe"></div>
+						<span class="gameResultShort">失败</span>
+						<img data-id="HeroImage" class="heroImg" src="../../panorama/images/heroes/hornet_card_psd.png">
+						<div data-id="Overlay">
+							<div class="viewDetails">
+								<div class="arrowIcon"></div>
+							</div>
+						</div>
+					</div>
+					<div class="gameMiniBlock team1 win">
+						<div class="teamStripe"></div>
+						<span class="gameResultShort">胜利</span>
+						<img data-id="HeroImage" class="heroImg" src="../../panorama/images/heroes/inferno_card_psd.png">
+						<div data-id="Overlay">
+							<div class="viewDetails">
+								<div class="arrowIcon"></div>
+							</div>
+						</div>
+					</div>
+					<div class="gameMiniBlock team2 loss">
+						<div class="teamStripe"></div>
+						<span class="gameResultShort">失败</span>
+						<img data-id="HeroImage" class="heroImg" src="../../panorama/images/heroes/tengu_card_psd.png">
+						<div data-id="Overlay">
+							<div class="viewDetails">
+								<div class="arrowIcon"></div>
+							</div>
+						</div>
+					</div>
+					<div class="gameMiniBlock team1 loss">
+						<div class="teamStripe"></div>
+						<span class="gameResultShort">失败</span>
+						<img data-id="HeroImage" class="heroImg" src="../../panorama/images/heroes/sumo_card_psd.png">
+						<div data-id="Overlay">
+							<div class="viewDetails">
+								<div class="arrowIcon"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-id="Statistics">
+			<div class="titleArea">
+				<span class="smallTitle">生涯统计</span>
+			</div>
+			<div data-id="StatsContent">
+				<div data-id="HeroList">
+					<div class="heroRow">
+						<span class="heroRowName">所有英雄</span>
+					</div>
+					<div class="heroRow hero_atlas selected">
+						<div data-id="HeroRowBackground" style="width: 100%"></div>
+						<img data-id="HeroRowImage" class="heroImg" src="../../panorama/images/heroes/bull_sm_psd.png">
+						<span class="heroRowName">亚伯拉姆斯</span>
+					</div>
+					<div class="heroRow hero_dynamo">
+						<div data-id="HeroRowBackground" style="width: 50%"></div>
+						<img data-id="HeroRowImage" class="heroImg" src="../../panorama/images/heroes/sumo_sm_psd.png">
+						<span class="heroRowName">奇能博士</span>
+					</div>
+					<div class="heroRow hero_haze">
+						<div data-id="HeroRowBackground" style="width: 50%"></div>
+						<img data-id="HeroRowImage" class="heroImg" src="../../panorama/images/heroes/haze_sm_psd.png">
+						<span class="heroRowName">暗影</span>
+					</div>
+					<div class="heroRow hero_inferno">
+						<div data-id="HeroRowBackground"></div>
+						<img data-id="HeroRowImage" class="heroImg" src="../../panorama/images/heroes/inferno_sm_psd.png">
+						<span class="heroRowName">炽焱</span>
+					</div>
+					<div class="heroRow hero_gigawatt">
+						<div data-id="HeroRowBackground"></div>
+						<img data-id="HeroRowImage" class="heroImg" src="../../panorama/images/heroes/gigawatt_sm_psd.png">
+						<span class="heroRowName">老七</span>
+					</div>
+					<div class="heroRow hero_hornet">
+						<div data-id="HeroRowBackground"></div>
+						<img data-id="HeroRowImage" class="heroImg" src="../../panorama/images/heroes/hornet_sm_png.png">
+						<span class="heroRowName">复仇女王</span>
+					</div>
+					<div class="heroRow hero_ghost">
+						<div data-id="HeroRowBackground"></div>
+						<img data-id="HeroRowImage" class="heroImg" src="../../panorama/images/heroes/spectre_sm_psd.png">
+						<span class="heroRowName">盖斯特夫人</span>
+					</div>
+					<div class="heroRow hero_wraith">
+						<div data-id="HeroRowBackground"></div>
+						<img data-id="HeroRowImage" class="heroImg" src="../../panorama/images/heroes/wraith_sm_psd.png">
+						<span class="heroRowName">灵魅</span>
+					</div>
+					<div class="heroRow hero_forge">
+						<div data-id="HeroRowBackground"></div>
+						<img data-id="HeroRowImage" class="heroImg" src="../../panorama/images/heroes/engineer_sm_psd.png">
+						<span class="heroRowName">麦金尼斯</span>
+					</div>
+					<div class="heroRow hero_chrono">
+						<div data-id="HeroRowBackground"></div>
+						<img data-id="HeroRowImage" class="heroImg" src="../../panorama/images/heroes/chrono_sm_psd.png">
+						<span class="heroRowName">悖论</span>
+					</div>
+					<div class="heroRow hero_kelvin">
+						<div data-id="HeroRowBackground"></div>
+						<img data-id="HeroRowImage" class="heroImg" src="../../panorama/images/heroes/kelvin_sm_psd.png">
+						<span class="heroRowName">凯尔文</span>
+					</div>
+					<div class="heroRow hero_bebop">
+						<div data-id="HeroRowBackground"></div>
+						<img data-id="HeroRowImage" class="heroImg" src="../../panorama/images/heroes/bebop_sm_psd.png">
+						<span class="heroRowName">比波普</span>
+					</div>
+				</div>
+				<div data-id="StatsBlock" class="hero_atlas">
+					<div data-id="StatsTitle">
+						<span class="statSectionLabel">生涯总数据</span>
+						<span class="statSectionName">亚博拉姆斯</span>
+					</div>
+					<div data-id="StatsLeft">
+						<div class="StatRow">
+							<div data-id="GamesPlayedContainer" class="TextStat largeStat">
+								<span class="statValue">4</span>
+								<span class="statLabel">官匹比赛场数</span>
+							</div>
+							<div data-id="GamesWonContainer" class="TextStat largeStat">
+								<span class="statValue">75.0%</span>
+								<span class="statLabel">胜率</span>
+							</div>
+						</div>
+						<div class="StatRow">
+							<div data-id="LastHitsContainer" class="TextStat">
+								<span class="statValue">278</span>
+								<span class="statLabel">场均正补</span>
+							</div>
+							<div data-id="DeniesContainer" class="TextStat">
+								<span class="statValue">21</span>
+								<span class="statLabel">场均反补</span>
+							</div>
+						</div>
+						<div class="StatRow">
+							<div data-id="LastHitsContainer" class="TextStat">
+								<span class="statValue">单人</span>
+								<span class="statLabel">最多组排</span>
+							</div>
+							<div data-id="DeniesContainer" class="TextStat">
+								<span class="statValue">21.3k</span>
+								<span class="statLabel">场均经济</span>
+							</div>
+						</div>
+					</div>
+					<div data-id="StatsRight">
+						<div class="BlockStat Kills">
+							<div class="blockBacker">
+								<div class="StatIcon"></div>
+								<p class="statValue">4</p>
+								<div class="labelContainer">
+									<span class="statLabel">总击杀数</span>
+								</div>
+							</div>
+						</div>
+						<div class="BlockStat Assists">
+							<div class="blockBacker">
+								<div class="StatIcon"></div>
+								<p class="statValue">11</p>
+								<div class="labelContainer">
+									<span class="statLabel">总助攻数</span>
+								</div>
+							</div>
+						</div>
+						<div class="BlockStat Networth">
+							<div class="blockBacker">
+								<div class="StatIcon"></div>
+								<p class="statValue">1,070</p>
+								<div class="labelContainer">
+									<span class="statLabel">每分钟收集魂魄</span>
+								</div>
+							</div>
+						</div>
+						<div class="BlockStat Healing">
+							<div class="blockBacker">
+								<div class="StatIcon"></div>
+								<p class="statValue">18,189</p>
+								<div class="labelContainer">
+									<span class="statLabel">治疗总量</span>
+								</div>
+							</div>
+						</div>
+						<div class="BlockStat PlayerDmg">
+							<div class="blockBacker">
+								<div class="StatIcon"></div>
+								<p class="statValue">10,117</p>
+								<div class="labelContainer">
+									<span class="statLabel">英雄伤害</span>
+								</div>
+							</div>
+						</div>
+						<div class="BlockStat ObjectiveDmg">
+							<div class="blockBacker">
+								<div class="StatIcon"></div>
+								<p class="statValue">17,677</p>
+								<div class="labelContainer">
+									<span class="statLabel">建筑伤害</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
