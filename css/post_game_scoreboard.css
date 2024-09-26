@@ -6,7 +6,7 @@
 	height: 100%;
 	justify-content: center;
 	vertical-align: top;
-	font-family: var(--sans);
+	font-family: industry-bold;
 	z-index: 1;
 }
 
@@ -194,7 +194,7 @@
 }
 
 .TeamName {
-	font-family: serif;
+	font-family: var(--sans);
 	font-size: 26px;
 	letter-spacing: 0.5px;
 	text-transform: uppercase;
@@ -477,7 +477,7 @@
 
 .localPlayerIsTeam2 [data-id=Team2Players] .localplayer [data-id=NameBarGraphs],
 .localPlayerIsTeam2 [data-id=Team2Players] .localplayer .PlayerStatsContainer {
-	background-color: color-mix(in srgb, var(--team2Color) 65%, transparent);
+	background-color: color-mix(in srgb, var(--team2Color) 15%, transparent);
 }
 
 [data-id=ModBarGraph] {
@@ -498,7 +498,7 @@
 .VictoryLabel {
 	font-size: 60px;
 	font-weight: bold;
-	font-family: serif;
+	font-family: var(--sans);
 	font-style: italic;
 	color: offWhite;
 	visibility: collapse;
@@ -622,7 +622,7 @@
 	font-weight: bold;
 	vertical-align: center;
 	margin-left: 4px;
-	font-family: serif;
+	font-family: var(--sans);
 }
 
 [data-id=Team1Networth] .SoulsValue,

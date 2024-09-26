@@ -40,14 +40,14 @@
 					<div class="TeamColorCircle"></div>
 					<span class="TeamName">琥珀之手</span>
 				</div>
-				<span class="VictoryLabel">胜利</span>
+				<span class="VictoryLabel">获胜方</span>
 			</div>
 			<div data-id="Team2TitleContainer" class="titleContainer">
 				<div data-id="Team2NameContainer" class="nameContainer">
 					<span class="TeamName">蓝宝石之焰</span>
 					<div class="TeamColorCircle"></div>
 				</div>
-				<span class="VictoryLabel">胜利</span>
+<!--				<span class="VictoryLabel">获胜方</span>-->
 			</div>
 		</div>
 		<div class="PlayersContainer">
@@ -101,9 +101,9 @@
 							<span>[BOT]</span>
 						</div>
 						<div data-id="ModBarGraph">
-							<progress data-id="WeaponProgressBar" class="modsProgressBar" max="100" value="50"></progress>
-							<progress data-id="ArmorProgressBar" class="modsProgressBar" max="100" value="50"></progress>
-							<progress data-id="TechProgressBar" class="modsProgressBar" max="100" value="50"></progress>
+							<progress data-id="WeaponProgressBar" class="modsProgressBar" max="100" value="12"></progress>
+							<progress data-id="ArmorProgressBar" class="modsProgressBar" max="100" value="13"></progress>
+							<progress data-id="TechProgressBar" class="modsProgressBar" max="100" value="88"></progress>
 						</div>
 					</div>
 					<div class="PlayerStatsContainer">
@@ -143,9 +143,9 @@
 							<span>[BOT]</span>
 						</div>
 						<div data-id="ModBarGraph">
-							<progress data-id="WeaponProgressBar" class="modsProgressBar" max="100" value="50"></progress>
-							<progress data-id="ArmorProgressBar" class="modsProgressBar" max="100" value="50"></progress>
-							<progress data-id="TechProgressBar" class="modsProgressBar" max="100" value="50"></progress>
+							<progress data-id="WeaponProgressBar" class="modsProgressBar" max="100" value="31"></progress>
+							<progress data-id="ArmorProgressBar" class="modsProgressBar" max="100" value="22"></progress>
+							<progress data-id="TechProgressBar" class="modsProgressBar" max="100" value="11"></progress>
 						</div>
 					</div>
 					<div class="PlayerStatsContainer">
@@ -178,7 +178,7 @@
 						</button>
 					</div>
 				</div>
-				<div class="PlayerSnippet">
+				<div class="PlayerSnippet ReportedPlayer">
 					<img data-id="HeroImage" class="heroImg" src="../../panorama/images/heroes/lash_vertical_psd.png">
 					<div data-id="NameBarGraphs">
 						<div data-id="PlayerName">
@@ -269,9 +269,9 @@
 							<span>[BOT]</span>
 						</div>
 						<div data-id="ModBarGraph">
-							<progress data-id="WeaponProgressBar" class="modsProgressBar" max="100" value="50"></progress>
-							<progress data-id="ArmorProgressBar" class="modsProgressBar" max="100" value="50"></progress>
-							<progress data-id="TechProgressBar" class="modsProgressBar" max="100" value="50"></progress>
+							<progress data-id="WeaponProgressBar" class="modsProgressBar" max="100" value="19.45"></progress>
+							<progress data-id="ArmorProgressBar" class="modsProgressBar" max="100" value="78.3"></progress>
+							<progress data-id="TechProgressBar" class="modsProgressBar" max="100" value="22"></progress>
 						</div>
 					</div>
 					<div class="PlayerStatsContainer">
@@ -306,14 +306,14 @@
 				</div>
 			</div>
 			<div data-id="StatsTypeContainer">
-				<span class="StatsLabel Title">玩家属性</span>
-				<span class="StatsLabel Row0 SoulsStatLabel">总魂魄</span>
-				<span class="StatsLabel Row1">击杀次数</span>
-				<span class="StatsLabel Row2">死亡次数</span>
-				<span class="StatsLabel Row3">助攻次数</span>
-				<span class="StatsLabel Row4">玩家伤害</span>
+				<span class="StatsLabel Title">玩家</span>
+				<span class="StatsLabel Row0 SoulsStatLabel">获得魂魄</span>
+				<span class="StatsLabel Row1">击杀</span>
+				<span class="StatsLabel Row2">死亡</span>
+				<span class="StatsLabel Row3">助攻</span>
+				<span class="StatsLabel Row4">英雄伤害</span>
 				<span class="StatsLabel Row5">建筑伤害</span>
-				<span class="StatsLabel Row6">治疗总量</span>
+				<span class="StatsLabel Row6">治疗量</span>
 			</div>
 			<div data-id="Team2Players" class="TeamPlayersContainer">
 				<div class="PlayerSnippet">
@@ -329,7 +329,8 @@
 						</div>
 					</div>
 					<div class="PlayerStatsContainer">
-						<div data-id="Networth" class="StatsLabelContainer">
+						<div data-id="Networth" class="StatsLabelContainer highestNetworth">
+							<div class="playerAward"></div>
 							<span class="PlayerNetworth Row0 StatsLabel">30,680</span>
 						</div>
 						<div data-id="Kills" class="StatsLabelContainer">
@@ -372,7 +373,7 @@
 						</div>
 					</div>
 					<div class="PlayerStatsContainer">
-						<div data-id="Networth" class="StatsLabelContainer highestNetworth">
+						<div data-id="Networth" class="StatsLabelContainer">
 							<div class="playerAward"></div>
 							<span class="PlayerNetworth Row0 StatsLabel">30,680</span>
 						</div>
